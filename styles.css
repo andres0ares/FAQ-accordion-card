@@ -1,0 +1,87 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+.faq {
+    border-radius: 20px;
+    margin: 10% 20%;
+    background-color: white;
+    padding: 50px 0;
+    background-image: url(./images/bg-pattern-desktop.svg); 
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 700px 700px;
+    background-position: -350px -150px;
+}
+.faq-col-1 {
+    
+}
+body { background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%)); }
+
+h6, h4, .text { font-family: 'Kumbh Sans', sans-serif; }
+h2 { font-weight: 700; margin-bottom: 40px;}
+.text { font-size: 12px; padding-right: 20%;}
+h6 { font-weight: 400; font-size: 12px; vertical-align: center;}
+h6:hover {color: hsl(14, 88%, 65%);}
+.hl:hover {  cursor: pointer; }
+.arrow-up { transform: rotate(180deg);}
+.arrow { margin-bottom: 15px;}
+
+.home {
+    overflow: hidden;
+    z-index: -1;
+}
+
+.test {
+    font-weight: 700;
+}
+
+hr.solid {
+    border-top: 2px solid hsl(240, 5%, 91%);
+    width: 80%;
+    margin-left: 0px;
+}
+
+.home1 {
+    position: absolute;
+    width: 112%;
+    z-index: 1;
+    display: block;
+    clip: rect(0px, 500px, 500px, 90px);
+    margin: 0px 0 0 -90px;
+}
+
+.home2 {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    margin: 130px 0 0 -130px;
+}
+
+@media only screen and (max-width: 1091px) {
+    
+    h2 {
+        margin-top: 160px;
+        size: 50px;
+        text-align: center;
+    }
+    
+    .faq {
+        padding: 0px 20px;
+        margin: 150px 40px;
+        background-size: 250px 250px;
+        background-position: 40px -120px;
+    }
+    .home1 {
+        width: 80%;
+        margin: -100px 0px 0px 15px;
+        clip: rect(0px, 500px, 500px, 0px);
+    }
+    .home2 {
+        width: 35%;
+        margin: -40px 0px -40px 0px;
+    }
+
+    hr.solid {
+        width: 100%;
+    }
+
+}
